@@ -4,9 +4,11 @@ import { PrimerComponente } from './components/primer-componente/primer-componen
 import { SegundoComponente } from './components/segundo-componente/segundo-componente';
 import { TercerComponente } from './components/tercer-componente/tercer-componente';
 import { CuartoComponente } from './components/cuarto-componente/cuarto-componente';
+import { QuintoComponente } from './components/quinto-componente/quinto-componente';
+import { SextoComponente } from './components/sexto-componente/sexto-componente';
 
 @Component({
-  imports: [RouterOutlet, PrimerComponente,SegundoComponente, TercerComponente, CuartoComponente],
+  imports: [RouterOutlet, PrimerComponente,SegundoComponente, TercerComponente, CuartoComponente , QuintoComponente,SextoComponente],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
